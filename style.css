@@ -1,0 +1,72 @@
+head {
+	font-family: Open Sans', arial, sans-serif;
+	font-size: 1em;
+	color:#444;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	margain: 0px;
+	text-align: center;
+
+}
+
+
+h1 {
+	text-align: center; 
+}
+
+body {
+font-family: 'Open Sans', arial, sans-serif;
+font-size: 1.25em;
+color:#444;
+margin-top: 2px;
+margin-bottom: 10px;
+margain: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#container {
+width:100%;
+max-width: 900px;
+margin: 0 auto;
+border-bottom:50px;
+}
+
+
+img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+figcaption {
+	text-align: center;
+}
+
+/* Media Queries */
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
